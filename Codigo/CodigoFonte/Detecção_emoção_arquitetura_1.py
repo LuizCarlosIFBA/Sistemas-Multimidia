@@ -323,7 +323,7 @@ plt.savefig('matriz_confusao_mod01.png')
 
 """## Testando o modelo"""
 
-imagem = cv2.imread('carlos.jpg')
+imagem = cv2.imread('Material/testes/teste02.jpg')
 cv2_imshow(imagem)
 
 original = imagem.copy()
