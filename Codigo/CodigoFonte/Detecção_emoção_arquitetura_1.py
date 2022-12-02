@@ -28,7 +28,7 @@ tensorflow.__version__
 from google.colab import drive
 drive.mount('/content/gdrive')
 
-path = "/content/gdrive/MyDrive/Colab Notebooks/Material.zip"
+path = "Material.zip"
 zip_object = zipfile.ZipFile(file=path, mode="r")
 zip_object.extractall("./")
 
